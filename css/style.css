@@ -5,21 +5,6 @@ body{
 html{
     scroll-behavior: smooth;
 }
-/* ul{
-    color: black;
-}
-.vika{
-    color: blanchedalmond;
-}
-.rafuk{
-    color: blue;
-}
-.block{
-    width: 400px;
-    height: 400px;
-    background-color: rgba(138, 197, 53 257, 8.9);
-} */ 
-
 .parent .block1{
     background: url('https://s3.almamat.com/content/blog/posts/statya_uklad_gorodov_Korea/shutterstock_5607281.jpg') center / cover;
     width: 100%;
