@@ -1,0 +1,228 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ul{
+    color: black;
+}
+.vika{
+    color: blanchedalmond;
+}
+.rafuk{
+    color: blue;
+}
+.block{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(138, 197, 53 257, 8.9);
+} */ 
+
+.parent .block1{
+    background: url('https://s3.almamat.com/content/blog/posts/statya_uklad_gorodov_Korea/shutterstock_5607281.jpg') center / cover;
+    width: 100%;
+    height: 100vh;
+}
+.parent .block2{
+    background: url('https://s3-ap-southeast-1.amazonaws.com/tz-mag-media/wp-content/uploads/2020/06/26145831/Featimage10.jpg') center / cover;
+    width: 100%;
+    height: 100vh;
+}
+.parent .block3{
+    background: url('https://study.vseokoree.com/images/yonsei_university_in_korea_5.jpg') center / cover;
+    width: 100%;
+    height: 100vh;
+}
+.parent .block4{
+    background: url('https://pics.ru/wp-content/uploads/2015/07/dream4.jpg') center / cover;
+    width: 100%;
+    height: 100vh;
+}
+.parent div h1{
+    font-size: 50px;
+    color: red;
+    text-shadow: 1px 2px 5px white;
+    margin: 0;
+    text-align: center;
+    padding-top: 300px;
+}
+.opacitys{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    transition: 1.5s;
+}
+.opacitys:hover{
+    opacity: 0;
+    transition: 1.5s;
+}
+.CenterCard{
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+
+.InlineCard{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.InlineCard div{
+    margin: 0px 5px;
+    color: white;
+    text-align: center;
+    transition: 1.5s;
+    transition-delay: 5s;
+}
+.InlineCard div:hover{
+    border-radius: 50%;
+    transition: 1.5s;
+}
+.InlineCard div h1{
+    padding-top: 200px;
+    opacity: 0;
+    transition: 1.5s;
+}
+.InlineCard div:hover h1{
+    padding-top: 0px;
+    opacity: 1;
+    transition: 1.5s;
+}
+.InlineCard .card1{
+    background: url('https://grantist.com/wp-content/uploads/2018/01/%D0%A1%D1%82%D0%B0%D0%B6%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B2-Google-%D0%B2-%D0%AE%D0%B6%D0%BD%D0%BE%D0%B9-%D0%9A%D0%BE%D1%80%D0%B5%D0%B5-min.jpg') center / cover;
+    width: 300px;
+    height: 300px;
+    margin: 20px 0;
+}
+.InlineCard .card2{
+    background: url('https://www.state.gov/wp-content/uploads/2019/04/South-Korea-2109x1406.jpg') center / cover;
+    width: 300px;
+    height: 300px;
+    margin: 20px 0;
+}
+.InlineCard .card3{
+    background: url('https://pix10.agoda.net/geo/country/212/3_212_south_korea_02.jpg?s=1920x') center / cover;
+    width: 300px;
+    height: 300px;
+    margin: 20px 0;
+}
+.InlineCard .card4{
+    background: url('https://www.lowyinstitute.org/sites/default/files/GettyImages-1134201090.jpeg') center / cover;
+    width: 300px;
+    height: 300px;
+    margin: 20px 0;
+}
+.button{
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.pb{
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+.pb a{
+    color: #03e9f4;
+    font-size: 25px;
+    text-decoration: none;
+    letter-spacing: 10px;
+    padding: 25px 30px;
+    position: relative;
+    display: inline-block;
+    transition: 1s;
+}
+.pb a:hover{
+    color: black;
+    background: #03e9f4;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 10px;
+    padding: 25px 30px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+    0 0 20px rgba(255, 255, 255, 0.8),
+    0 0 40px rgba(255, 255, 255, 0.8),
+    0 0 60px #03e9f4,
+    0 0 80px #03e9f4,
+    0 0 100px #03e9f4,
+    0 0 120px #f8f8f8;    ;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.pb a span{
+    position: absolute;
+    display: block;
+}
+.pb a span:nth-child(1){
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent , #03e9f4);
+    animation: an1 1s infinite;
+}
+@keyframes an1{
+    0%{
+        left: -100% ;
+    }
+    50%, 100%{
+        left: 100%;
+    }
+}
+.pb a span:nth-child(2){
+    right: 0%;
+    top: -100%;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(110deg, transparent , #03e9f4);
+    animation: an2 1s infinite;
+}
+@keyframes an2{
+    0%{
+        top: -100% ;
+    }
+    50%, 100%{
+        top: 100%;
+    }
+}
+.pb a span:nth-child(3){
+    right: -100%;
+    bottom: 0%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(110deg, transparent , #03e9f4);
+    animation: an3 1s infinite;
+}
+@keyframes an3{
+    0%{
+        right: -100% ;
+    }
+    50%, 100%{
+        right: 100%;
+    }
+}
+.pb a span:nth-child(4){
+    left: 0%;
+    bottom: -100%;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(110deg, transparent , #03e9f4);
+    animation: an4 1s infinite;
+}
+@keyframes an4{
+    0%{
+        bottom: -100% ;
+    }
+    50%, 100%{
+        bottom: 100%;
+    }
+}
